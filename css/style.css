@@ -50,7 +50,7 @@
 .menu__item {
   margin: 0 0 16px 24px;
   text-align: justify;
-  list-style-type:square;
+  list-style-type:circle;
 }
 
 .card__price {
