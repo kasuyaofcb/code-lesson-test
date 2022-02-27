@@ -11,19 +11,22 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>【実践】料金紹介カードを作ってみよう</title>
   </head>
-  <body class="index">
-    <div>
-      <img src="/img/movie.png" alt="movie">
-      <h3>ベーシックプラン</h3>
-      <ul>
-        <li><span><img src="/img/check.png" alt="check" width="15px"></span>邦画3,000作品見放題</li>
-        <li><span><img src="/img/check.png" alt="check" width="15px"></span>洋画5,000作品見放題</li>
-        <li><span><img src="/img/cross.png" alt="cross" width="15px"></span>新作見放題</li>
-      </ul>
-      <p>￥<span>1,500</span>/月</p>
-      <a href="#">Subscribe</a>
+  <body>
+    <div class="card">
+      <h3 class="card__title"><span class="title__en">Basic</span>ベーシックプラン</h3>
+      <div class="card__contents">
+        <h4 class="card__subTitle">プラン内容</h4>
+        <ul class="card__menu">
+          <li class="menu__item">邦画3,000作品見放題</li>
+          <li class="menu__item">洋画5,000作品見放題</li>
+          <li class="menu__item">ストリーミング再生</li>
+          <li class="menu__item icon--cross">ダウンロード再生</li>
+          <li class="menu__item icon--cross">新作見放題</li>
+        </ul>
+        <p class="card__price">￥<span class="price--em">1,500</span>/月</p>
+        <a href="#" class="btn">Subscribe</a>
+      </div>
     </div>
-
     <script src="./js/test.js"></script>
   </body>
 </html>

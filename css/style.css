@@ -1,56 +1,79 @@
-div {
-  color: #ECEFF1;
+.card {
+  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN','Yu Gothic UI',sans-serif;
   max-width: 280px;
-  background-color: #00B0FF;
   margin: 32px;
-  padding: 32px 16px;
   text-align: center;
   border-radius: 16px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px;
 }
 
-h3 {
-  margin: 48px auto;
-  border-bottom: solid 3px #FFEa00;
-  width: 200px;
-  line-height :40px;
+.title__en {
+  display: block;
+  font-size: 16px;
+}
+
+.card__title {
+  color: #fff;
+  font-weight: bold;
+  background-color: #8e9fff;
+  padding: 24px 24px 8px;
+  border-radius: 8px 8px 0 0;
   font-size: 24px
 }
 
-li {
-  width: 200px;
-  list-style: none;
-  margin: 0 auto;
+.title__en {
+  display: block;
+  font-size: 16px;
+}
+
+.card__contents {
+  padding: 24px;
+}
+
+.card__subTitle {
+  color: #8e9fff;
+  font-weight: bold;
+  margin-bottom: 24px;
+  border-bottom: solid 1px #8e9fff;
+  display: inline-block;
+  line-height: 24px;
+}
+
+.card__menu {
+  padding: 0 24px;
+  margin-bottom: 24px;
+}
+
+.menu__item {
+  margin-left: 16px;
   line-height: 32px;
   text-align: justify;
+  list-style-image: url(../img/check.png);
 }
 
-li span {
-  margin-right: 8px;
+.icon--cross{
+  list-style-image: url(../img/cross.png);
 }
 
-li span img {
-  margin-bottom: 9px;
+.card__price {
+  margin-bottom: 24px
 }
 
-p {
-  margin-top: 32px;  
-}
-
-p span {
+.price--em {
   font-size: 32px;
 }
 
-a {
-  margin: 32px auto 0;
+.btn {
+  margin: 0 auto;
   display: block;
-  border: solid 3px #FFEa00;
+  background-color:#FFDE75;
   width: 150px;
   padding: 16px; 
   border-radius: 32px;
+  color: #fff;
+  font-weight: bold;
 }
 
-a:hover {
-  background-color:#FFEa00;
-  color: #333333;
+.btn:hover {
+  background-color:#8e9fff;
 }
